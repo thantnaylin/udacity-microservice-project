@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: microservice-108660613020-dev
+  AWS_PROFILE: udacity-k8s
+  AWS_REGION: us-east-1
+  JWT_SECRET: SUPERSECRETKEY
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: database-1.cswooyw1aboa.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100
+metadata:
+  name: env-config
