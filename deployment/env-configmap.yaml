@@ -7,6 +7,6 @@ data:
   JWT_SECRET: SUPERSECRETKEY
   POSTGRES_DB: postgres
   POSTGRES_HOST: database-1.cswooyw1aboa.us-east-1.rds.amazonaws.com
-  URL: http://localhost:8100
+  URL: a93a4dc333afd497db1e0498e285a42f-2020688506.us-east-1.elb.amazonaws.com
 metadata:
   name: env-config
